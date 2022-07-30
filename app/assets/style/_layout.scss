@@ -62,24 +62,25 @@ body {
           margin: 12px 0;
         }
         
-        ul {
-          flex-wrap: wrap;
-          margin: 0;
-          width: 100%;
-  
-          li {
-            width: 50%;
-            border: 1px solid #fff;
-            font-size: 16px;
-            box-sizing: border-box;
-            margin-left: 0;
-            
-            a {
-              padding: 12px 0;
-              display: block;
-              text-align: center;
-            }
-          }
+      }
+    }
+
+    .headerNavbar {
+      flex-wrap: wrap;
+      margin: 0;
+      width: 100%;
+
+      li {
+        width: 50%;
+        border: 1px solid #fff;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin-left: 0;
+        
+        a {
+          padding: 12px 0;
+          display: block;
+          text-align: center;
         }
       }
     }
