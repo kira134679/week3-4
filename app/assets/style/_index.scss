@@ -1,0 +1,65 @@
+.banner {
+  background-image: url(../images/home-header.png);
+	background-size: cover;
+	height: 787px;
+	background-position: center center;
+	color: $text-primary;
+	align-items: center;
+	justify-content: flex-end;
+	
+	button {
+		color: $text-secondary;
+		background-color: $primary;
+		box-sizing: border-box;
+		border: none;
+		font-size: 20px;
+		font-weight: $Medium;
+		padding: 6px 12px;
+		transition: 0.3s;
+
+		&:hover {
+			background-color: $text-primary;
+		}
+	}
+}
+
+.banner-content {
+	text-align: right;
+	// padding-top: 293px;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: $Bold;
+	margin-bottom: $unit*0.5;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+@media (max-width: 992px) {
+	.banner {
+		background-image: url(../images/home-header-sm.png);
+		
+	}
+}
+
+@media (max-width: 767px) {
+	.banner {
+		height: 396px;
+	}
+
+	h1 {
+		font-size: 24px;
+		margin-bottom: $unit;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+}
