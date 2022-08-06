@@ -10,6 +10,10 @@
 	margin-bottom: $unit*3;
 }
 
+.mb-4 {
+	margin-bottom: $unit*4;
+}
+
 .mb-6 {
 	margin-bottom: $unit*6;
 }
@@ -20,4 +24,8 @@
 
 .w100 {
 	width: 100%;
+}
+
+.fw-bold {
+	font-weight: $bold;
 }

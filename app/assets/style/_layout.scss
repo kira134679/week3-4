@@ -22,11 +22,12 @@ header {
 		justify-content: space-between;
 		align-items: center;
 
-		ul {
-			margin: 25px 0;
-			
-			li {
-				margin-left: $unit*8;
+		li {
+			margin-left: $unit*8;
+
+			a {
+				display: block;
+				padding: 25px 0;
 			}
 		}
 	}

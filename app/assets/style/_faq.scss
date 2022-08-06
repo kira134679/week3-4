@@ -1,0 +1,42 @@
+.faq {
+	padding-top: $unit*10;
+	padding-bottom: $unit*10;
+
+	h2, h3, p {
+		color: $text-black;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	.faq-title {
+		border-left: 8px solid #9F1213;
+		padding-left: $unit*2;
+	}
+	
+	.faq-subtitle {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 767px) {
+	.faq {
+		padding-top: $unit*5;
+		padding-bottom: $unit*5;
+	
+		.faq-title {
+			font-size: 24px;
+		}
+	}
+
+	.faq-list {
+		li {
+			margin-bottom: $unit*3;
+		}
+	}
+}
