@@ -1,11 +1,5 @@
-body {
-    font-family: 'Noto Sans TC', 'Roboto', sans-serif;
-    font-weight: $Regular;
-    line-height: 1.5;
-}
-  
 .container {
-	max-width: 1296px;
+	max-width: 1320px;
 	padding: 0 12px;
 	margin: 0 auto;
 }
@@ -74,7 +68,6 @@ header {
 			width: 50%;
 			border: 1px solid #fff;
 			font-size: 16px;
-			box-sizing: border-box;
 			margin-left: 0;
 			
 			a {
@@ -96,7 +89,6 @@ footer {
 	a {
 		text-decoration: none;
 		color: #fff;
-		box-sizing: border-box;
 
 		&:hover {
 			opacity: 0.5;
@@ -110,7 +102,7 @@ footer {
 	padding-bottom: $unit*3;
 }
 
-.contact {
+.info-list {
 	flex-direction: column;
 		
 	.navbar {
@@ -163,14 +155,13 @@ footer {
 .legal-link {
 	a {
 		margin-left: $unit*4;
-		box-sizing: border-box;
 	}
 }
 
 @media (max-width: 992px) {
-	.container {
-		margin: 0 $unit*3;
-	}
+	// .container {
+	// 	margin: 0 $unit*3;
+	// }
 
 	.sc-icons {
 		a {
@@ -202,7 +193,7 @@ footer {
 		}
 	}
 
-	.contact {
+	.info-list {
 		.address {
 			font-size: $unit*2;
 			span {

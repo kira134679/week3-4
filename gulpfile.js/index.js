@@ -41,6 +41,7 @@ function sass() {
     autoprefixer(),
   ];
   return gulp.src(envOptions.style.src)
+		.pipe($.wait(500))
     .pipe($.sourcemaps.init())
     .pipe($.sass().on('error', $.sass.logError))
     .pipe($.postcss(plugins))

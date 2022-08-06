@@ -1,0 +1,15 @@
+body {
+	font-family: Roboto, 'Noto Sans TC', sans-serif;
+	font-weight: $regular;
+	line-height: 1.5;
+}
+
+img {
+	vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+ }
